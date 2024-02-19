@@ -17,10 +17,12 @@ body{
 /* Header */
 
 #head{
-    background-image: url("../images/empty_road_3-wallpaper-1920x1080.jpg");
+    
+    background-image: url("../images/empty_road_3-wallpaper-1920x1200.jpg");
     background-repeat: no-repeat;
-    background-position: 0 -30px;
+    background-position: center;
     background-size: cover;
+    
 }
 
 #head a{
@@ -32,16 +34,12 @@ body{
 #head h1{
     font-family: 'protest riot';
     color:rgb(31, 26, 26);
-    
-
     font-size: 5rem;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     letter-spacing: 2px;
 }
 
-#rotate{
-    text-shadow: 2px;
-}
 
 
 #head p{
@@ -55,18 +53,19 @@ body{
 }
 
 #menu{
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(0, 0, 0, 0.356);
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 1px;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 2px;
 
 }
 
 #menu > li{
-    padding: 5px 20px;
+    padding: 5px 10px;
     list-style-type: none;
     font-size: 20px;
     font-family:  oswald, sans-serif;
@@ -79,12 +78,29 @@ body{
 
 main{
     background-color: aquamarine;
-    margin-top: 60px;
+    
 
 }
 
 footer{
     background-color: burlywood;
+}
+
+
+@media (min-width: 800px) {
+    #head h1{
+        text-align: center;
+        letter-spacing: 5px;
+
+    }
+    
+
+    
+    #menu > li {
+        padding: 5px 30px;
+    }
+
+    
 }
 
 
