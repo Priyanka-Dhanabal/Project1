@@ -96,8 +96,31 @@ body{
 /* Footer */
 
 #about-us{
-    margin-top: 10px;
+    
+    background-color: hsla(0, 0%, 13%, 0.555)
 }
+
+#social-icons{
+    background-color: hsla(0, 0%, 13%, 0.855);
+    
+}
+
+#social-icons i{
+    color:beige;
+    
+}
+#social-icons > li{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    
+    list-style-type: none;
+    
+}
+
 
 
 
