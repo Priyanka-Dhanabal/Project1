@@ -8,7 +8,8 @@
 }
 
 body{
-    
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -28,6 +29,10 @@ header h1{
 
 header p{
     text-align: center;
+    position:relative;
+    
+
+    top: -20px;
     
 }
 
@@ -47,6 +52,7 @@ header p{
     list-style-type: none;
     font-family:  oswald, sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 
