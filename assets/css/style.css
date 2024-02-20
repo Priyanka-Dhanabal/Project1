@@ -17,7 +17,7 @@ body {
 }
 h1,h2,h3{
     font-family: 'Protest Riot', sans-serif;
-    padding: 10px;
+    
 }
 
 /* Header */
@@ -88,11 +88,51 @@ h1,h2,h3{
 
 /* main */
 
+
 #tagline{
     text-align: center;
     margin-top: 20px;
+}
+#tagline > p{
+    font-size: 20px;
+    color:rgb(20, 20, 20);
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.timeline{
+    text-align: left;
+    padding: 2em;
+    
+}
+
+.checkpoint div{
+    padding: 1em 1em;
+    margin-bottom: 1.5em;
+    border: 2px solid black;
+    border-radius: 1em;
 
 }
+
+.checkpoint p{
+    font-family: verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+
 
 
 /* Footer */
