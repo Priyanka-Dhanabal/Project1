@@ -12,7 +12,9 @@ body {
     flex-direction: column;
     width: 100%;
     position: relative;
-    background-color: hsl(60, 40%, 91%)
+    background-color: beige;
+    z-index: 50;
+    
     
 }
 h1,h2,h3{
@@ -42,8 +44,9 @@ h1,h2,h3{
     letter-spacing: 2px;
 }
 
-#head>a {
+#head > a {
     text-decoration: none;
+    
 }
 
 #head p {
@@ -57,10 +60,10 @@ h1,h2,h3{
 }
 
 #menu {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 34);
     font-family: oswald, sans-serif;
     position: sticky;
-    top: 2px;
+    top: 1px;
     z-index: 99;
     margin-bottom: 10px;
 
@@ -76,6 +79,7 @@ h1,h2,h3{
 #nav a {
     color: beige;
     text-decoration: none;
+    font-size: 20px;
 }
 
 #nav > li >a:hover{
@@ -89,48 +93,75 @@ h1,h2,h3{
 /* main */
 
 
+
 #tagline{
     text-align: center;
     margin-top: 20px;
 }
 #tagline > p{
     font-size: 20px;
-    color:rgb(20, 20, 20);
+    color:rgb(0, 0, 34);
     font-weight: bold;
+    
 }
 
 h2{
     font-size: 2em;
     margin-bottom: 10px;
+    color:rgb(0, 0, 34);
 }
 
 h3{
     font-size: 1.6em;
     margin-bottom: 10px;
+    color:beige;
+    text-decoration:underline;
 }
 
 .timeline{
-    text-align: left;
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
     
 }
 
 .checkpoint div{
-    padding: 1em 1em;
-    margin-bottom: 1.5em;
-    border: 2px solid black;
+    background-color: rgb(0, 0, 34);
+    padding: 1em 2em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    max-width:35rem;
+    
+    border: 5px solid black;
     border-radius: 1em;
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    letter-spacing: 1px;
+
 
 }
 
 .checkpoint p{
-    font-family: verdana, sans-serif;
+    font-family: oswald, sans-serif;
     font-size: 1.2em;
+    color:rgb(247, 247, 197);
+    font-weight: 50;
+
+}
+
+.checkpoint a{
+    color:rgb(247, 247, 197);
+    text-decoration: none;
 }
 
 .bold{
-    font-weight: bolder;
+    font-weight: 900;
 }
+
 
 
 
@@ -164,22 +195,65 @@ h3{
 
 }
 
+@media (min-width:1000px) {
 
+    #head h1{
+        font-size: 6rem;
+    }
+
+    #nav a{
+        font-size: 25px;
+    }
+
+    #nav > li > a:hover{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    #tagline > p{
+        font-size: 3em;
+    }
+
+   /* h3{
+        font-size: 3rem;
+    }
+    .checkpoint p{
+        font-size: 2rem;
+    }
+    .checkpoint > div{
+        padding: 2rem 2rem;
+    }
+    */
+    .odd{
+        margin-right: 50rem;
+       }
+       .oddly{
+        margin-right: 50rem;
+       }
+       .even{
+        margin-left: 50rem;
+       }
+   
+}
 
 
 @media (min-width: 800px) {
 
-    #head h1 {
-        text-align: center;
-        letter-spacing: 5px;
-
-    }
-
-
-
-    #menu>li {
-        padding: 5px 30px;
-    }
-
+   
+   .odd{
+    margin-right: 20rem;
+   }
+   .oddly{
+    margin-right: 20rem;
+   }
+   .even{
+    margin-left: 20rem;
+   }
 
 }
+
+
+
