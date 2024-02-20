@@ -7,138 +7,139 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
-    width:100%;
-    position:relative;
-
+    width: 100%;
+    position: relative;
+    background-color: hsl(60, 40%, 91%)
     
-    
+}
+h1,h2,h3{
+    font-family: 'Protest Riot', sans-serif;
+    padding: 10px;
 }
 
 /* Header */
 
-#head{
-    
+#head {
+
     background-image: url("../images/empty_road_3-wallpaper-1920x1200.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-    
-}
-
-#head a{
-    color: beige;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-
-#head h1{
-    font-family: 'protest riot';
-    color:rgb(31, 26, 26);
-    font-size: 5rem;
     text-align: center;
+
+}
+
+
+#head h1 {
+    font-family: 'protest riot';
+    color: rgb(31, 26, 26);
+    font-size: 5rem;
+
     padding: 10px;
     letter-spacing: 2px;
 }
 
+#head>a {
+    text-decoration: none;
+}
 
+#head p {
 
-#head p{
-    text-align: center;
-    color:rgb(31, 26, 26);
+    color: rgb(31, 26, 26);
     position: relative;
     top: -20px;
     font-size: 40px;
-    
-    
+
+
 }
 
-#menu{
-    background-color: rgba(0, 0, 0, 0.556);
+#menu {
+    background-color: rgb(20, 20, 20);
+    font-family: oswald, sans-serif;
+    position: sticky;
+    top: 2px;
+    z-index: 99;
+    margin-bottom: 10px;
+
+}
+
+#nav{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1px;
-    width: 100%;
-    position:fixed;
-    
-        
-
-}
-
-#menu > li{
-    padding: 5px 10px;
     list-style-type: none;
-    font-size: 20px;
-    font-family:  oswald, sans-serif;
-    font-weight: 300;
-    text-align: center;
-    
+    justify-content: space-around;
+    padding: 10px;
 }
 
-#menu > li > a:hover{
-    color: black;
+#nav a {
+    color: beige;
+    text-decoration: none;
 }
+
+#nav > li >a:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
 
 
 /* main */
 
-#tagline > h2{
-    font-family: oswald;
-    background-color: red;
+#tagline{
+    text-align: center;
+    margin-top: 20px;
+
 }
+
 
 /* Footer */
 
-#about-us{
-    
+#about-us {
+
     background-color: hsla(0, 0%, 13%, 0.555)
 }
 
-#social-icons{
+#social-icons {
     background-color: hsla(0, 0%, 13%, 0.855);
-    
+
 }
 
-#social-icons i{
-    color:beige;
-    
+#social-icons i {
+    color: beige;
+
 }
-#social-icons > li{
+
+#social-icons>li {
     list-style: none;
     text-align: center;
     padding: 20px 0;
     display: flex;
     flex-direction: row;
-    
-    
+
+
     list-style-type: none;
-    
+
 }
 
 
 
 
 @media (min-width: 800px) {
-   
-    #head h1{
+
+    #head h1 {
         text-align: center;
         letter-spacing: 5px;
 
     }
-    
 
-    
-    #menu > li {
+
+
+    #menu>li {
         padding: 5px 30px;
     }
 
-    
+
 }
-
-
-
-
