@@ -159,8 +159,12 @@ h3 {
 }
 
 .checkpoint a {
-    color: rgb(247, 247, 197);
+    color: beige;
     text-decoration: none;
+    
+}
+.checkpoint a:hover{
+    text-decoration: underline;
 }
 
 .bold {
@@ -205,32 +209,21 @@ h3 {
 
 /* Footer */
 
-#about-us {
-
-    background-color: hsla(0, 0%, 13%, 0.555)
-}
-
-#social-icons {
-    background-color: hsla(0, 0%, 13%, 0.855);
-
-}
-
-#social-icons i {
-    color: beige;
-
-}
-
-#social-icons>li {
-    list-style: none;
+#social-icons{
     text-align: center;
     padding: 20px 0;
     display: flex;
-    flex-direction: row;
-
-
+    justify-content: space-around;
     list-style-type: none;
-
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 34);
 }
+
+#social-icons a{
+    color: beige;
+    padding-right: 1.5em ;
+}
+
 
 @media (min-width: 800px) {
 
@@ -253,6 +246,7 @@ h3 {
         column-count: 2;
 
     }
+   
 
 }
 
@@ -303,7 +297,7 @@ h3 {
     /* Photos */
 
     #photos {
-        column-count: 4;
+        column-count: 3;
 
     }
 
