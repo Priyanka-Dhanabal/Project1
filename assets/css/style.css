@@ -14,12 +14,15 @@ body {
     position: relative;
     background-color: beige;
     z-index: 50;
-    
-    
+
+
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     font-family: 'Protest Riot', sans-serif;
-    
+
 }
 
 /* Header */
@@ -44,9 +47,9 @@ h1,h2,h3{
     letter-spacing: 2px;
 }
 
-#head > a {
+#head>a {
     text-decoration: none;
-    
+
 }
 
 #head p {
@@ -63,13 +66,13 @@ h1,h2,h3{
     background-color: rgb(0, 0, 34);
     font-family: oswald, sans-serif;
     position: sticky;
-    top: 1px;
+    top: 0;
     z-index: 99;
     margin-bottom: 10px;
 
 }
 
-#nav{
+#nav {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -82,7 +85,7 @@ h1,h2,h3{
     font-size: 20px;
 }
 
-#nav > li >a:hover{
+#nav>li>a:hover {
     font-size: 25px;
     cursor: pointer;
 }
@@ -94,50 +97,51 @@ h1,h2,h3{
 
 
 
-#tagline{
+#tagline {
     text-align: center;
     margin-top: 20px;
 }
-#tagline > p{
+
+#tagline>p {
     font-size: 20px;
-    color:rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
     font-weight: bold;
-    
+
 }
 
-h2{
+h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color:rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
 }
 
-h3{
+h3 {
     font-size: 1.6em;
     margin-bottom: 10px;
-    color:beige;
-    text-decoration:underline;
+    color: beige;
+    text-decoration: underline;
 }
 
-.timeline{
+.timeline {
     padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
 
-    
+
+
+
 }
 
-.checkpoint div{
+.checkpoint div {
     /*background-color: rgb(0, 0, 34);*/
-    background: linear-gradient(135deg,rgb(0,0,0)2%, rgb(0,0,40)50%, transparent);
+    background: linear-gradient(135deg, rgb(0, 0, 0)2%, rgb(0, 0, 40)50%, transparent);
     padding: 1em 2em;
     margin-bottom: 2em;
     margin-top: 5em;
-    max-width:35rem;
-    
+    max-width: 35rem;
+
     border: 3px solid black;
     border-radius: 1em;
     box-shadow: 5px 5px 10px rgb(59, 59, 59);
@@ -146,24 +150,44 @@ h3{
 
 }
 
-.checkpoint p{
+.checkpoint p {
     font-family: oswald, sans-serif;
     font-size: 1.2em;
-    color:beige;
+    color: beige;
     font-weight: 50;
 
 }
 
-.checkpoint a{
-    color:rgb(247, 247, 197);
+.checkpoint a {
+    color: rgb(247, 247, 197);
     text-decoration: none;
 }
 
-.bold{
+.bold {
     font-weight: 900;
 }
 
+/* photos */
 
+#photos {
+    clear: both;
+    line-height: 2rem;
+    column-count: 1;
+    gap: 1px;
+    object-fit: scale-down;
+    /* padding: 2em 2em;
+    background-color: rgb(0, 0, 34);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; */
+}
+
+#photos>img {
+    width: 100%;
+
+}
 
 
 
@@ -196,29 +220,53 @@ h3{
 
 }
 
+@media (min-width: 800px) {
+
+
+    .odd {
+        margin-right: 20rem;
+    }
+
+    .oddly {
+        margin-right: 20rem;
+    }
+
+    .even {
+        margin-left: 20rem;
+    }
+
+    /* Photos */
+
+    #photos {
+        column-count: 2;
+
+    }
+
+}
+
 @media (min-width:1000px) {
 
-    #head h1{
+    #head h1 {
         font-size: 6rem;
     }
 
-    #nav a{
+    #nav a {
         font-size: 25px;
     }
 
-    #nav > li > a:hover{
+    #nav>li>a:hover {
         font-size: 30px;
     }
 
-    h2{
+    h2 {
         font-size: 3em;
     }
 
-    #tagline > p{
+    #tagline>p {
         font-size: 3em;
     }
 
-   /* h3{
+    /* h3{
         font-size: 3rem;
     }
     .checkpoint p{
@@ -228,33 +276,25 @@ h3{
         padding: 2rem 2rem;
     }
     */
-    .odd{
+    .odd {
         margin-right: 50rem;
-       }
-       .oddly{
+    }
+
+    .oddly {
         margin-right: 50rem;
-       }
-       .even{
+    }
+
+    .even {
         margin-left: 50rem;
-       }
-   
-}
+    }
 
+    /* Photos */
 
-@media (min-width: 800px) {
+    #photos {
+        column-count: 4;
 
-   
-   .odd{
-    margin-right: 20rem;
-   }
-   .oddly{
-    margin-right: 20rem;
-   }
-   .even{
-    margin-left: 20rem;
-   }
+    }
 
 }
-
 
 
