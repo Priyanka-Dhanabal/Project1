@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 
 * {
     margin: 0;
@@ -205,6 +205,14 @@ h3 {
 }
 */
 
+/*About us*/
+
+#map{
+    width: 10rem;
+    height: 10rem;
+    margin: 10px;
+}
+
 
 
 /* Footer */
@@ -237,17 +245,19 @@ h3 {
     text-align: center;
     
     margin-bottom: 20px;
-    color: rgb(0, 0, 34);
+    color: beige;
     margin-top: -10px;
 }
 
 #signup {
-    max-width: 80%;
-    height: 100%;
-    border: 2px solid rgb(0, 0, 34);
+    max-width: 90%;
+    max-height: 100%;
+    border: 2px solid beige;
     margin: 50px auto;
+    border: 2px solid rgb(0, 0, 34);
     /* flex-grow: 1; */
     padding: 30px 30px;
+    background: linear-gradient(135deg, rgb(0, 0, 0)2%, rgb(0, 0, 40)50%, transparent);
 }
 
 label {
@@ -255,6 +265,14 @@ label {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.2px;
     font-size: 1.1em;
+    color:beige;
+
+}
+
+legend, summary{
+    color:beige;
+    font-family: oswald, sans-serif;
+    letter-spacing: 0.2px;
 }
 
 
@@ -264,19 +282,19 @@ input, #group {
     width: 100%;
     height: 25px;
     margin: 3px 0 5px 0;
-    border: 2px solid black;
+    border: 2px solid beige;
     border-radius: 5px;
     padding: 0 5px;
-    color: black;
+    color: beige;
 }
 
 textarea{
     width: 100%;
     margin: 3px 0 5px 0;
-    border: 2px solid black;
+    border: 2px solid beige;
     border-radius: 5px;
     padding: 0 5px;
-    color: black;
+    color: rgb(0,0,37);
     background-color: beige;
 }
 
@@ -284,7 +302,7 @@ textarea{
 
 
 option{
-    background-color: beige;
+    background-color: rgb(0,0,37);
 }
 
 .info{
@@ -293,6 +311,20 @@ option{
     vertical-align: middle;
     font-size:larger;
 }
+
+.button {
+    padding: 10px;
+    font-size: 1.5em;
+    color: rgb(0, 0, 34);
+    border: none;
+    box-shadow: 2px 2px 5px beige;
+    background: burlywood;
+    margin-top: 2em;
+    border-radius: 5px;
+    font-family: oswald, sans-serif;
+    
+}
+
 
 
 
@@ -318,6 +350,13 @@ option{
         column-count: 2;
 
     }
+
+    /* signup */
+    #signup{
+        max-width: 40rem;
+
+    }
+    
    
 
 }
