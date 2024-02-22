@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     width: 100%;
     position: relative;
-    background-color: beige;
+    background-color: hsl(0, 50%, 95%);
     z-index: 50;
 
 
@@ -107,6 +107,10 @@ h3 {
     color: rgb(0, 0, 34);
     font-weight: bold;
 
+}
+
+#tagline > .small{
+    font-size: 15px;
 }
 
 h2 {
@@ -256,7 +260,7 @@ h3 {
     background: linear-gradient(135deg, rgb(0, 0, 0)2%, rgb(0, 0, 40)50%, transparent);
 }
 
-label {
+label, legend, summary {
     /* padding-left: 15px; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.2px;
@@ -265,16 +269,12 @@ label {
 
 }
 
-legend, summary{
-    color:beige;
-    font-family: oswald, sans-serif;
-    letter-spacing: 0.2px;
-}
 
 
 input, #group {
     display: block;
     background: transparent;
+    font-size: 20px;
     width: 100%;
     height: 25px;
     margin: 3px 0 5px 0;
@@ -290,8 +290,9 @@ textarea{
     border: 2px solid beige;
     border-radius: 5px;
     padding: 0 5px;
-    color: rgb(0,0,37);
-    background-color: beige;
+    color: beige;
+    font-size: 20px;
+    background-color: transparent;
 }
 
 
@@ -379,6 +380,10 @@ option{
 
     #tagline>p {
         font-size: 3em;
+    }
+
+    #tagline > .small{
+        font-size: 2em;
     }
 
     /* h3{

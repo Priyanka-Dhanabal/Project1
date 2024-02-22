@@ -2,7 +2,7 @@
 
 
 ## A Travel Website
-> A Website showcasing a itnerary of date, venue and activities that will be held. This website also alows users view photo gallery and submit a form to be part of the travel.
+> A Website showcasing a itnerary of date, venue and activities that will be held for users owning a motor bike. This website also alows users view photo gallery and submit a form to be part of the travel.
 
 #### - by Priyanka Dhanabal
 
@@ -18,8 +18,12 @@
  4. [ Testing ](#testing)  
  5. [ Bugs ](#bugs)  
  6. [ Deployment](#deployment)
- 7. [ Citation of Sources](#credits)
- 8. [ Future Feature ](#left)  
+ 7. [ Future Feature ](#left)  
+ 8. [ Citation of Sources](#credits)
+ 9. [content](#Content)
+ 10. [Acknowledgements](#Acknowledgements)
+ 
+ 
  
 
  ## UX
@@ -97,11 +101,51 @@
 
 ## Testing
 
+### Manual Testing
+
+### Google Lighthouse Testing
+
+### W3C Validation
+
 ## Bugs
 
 ## Deployment
 
 ## Credits
+
+## Content
+### Content and resources
+
+##### Code Institute
+- Course content for portfolio project 1 hepled greatly in understanding the needs to complete the project
+- The Love running project helped me understand various content and the ways to style the structure of html element.
+
+##### W3 School
+- Used to reference some basic css styling.
+
+##### Tutoring and Mentor Support at Code Institute
+- Used to overcome some difficulties I faced on Gitpod installation, unable to view sticky positioning on the website and some responsiveness related quires. 
+- Mentor helped to understand the places for improvement.
+
+## Acknowledgements
+
+#### Mentor
+>
+
+#### kristyna - Cohort facilitator
+> She was very helpful with all my queries related to Code Institute study structure. Also, helping to understand the various needs to achive a good project.
+
+#### Code Institute Tutor Support team
+> The Tutor support team were always available to answer my questions if things were not working as how they should.
+
+
+
+
+
+
+
+
+
 
 
 
