@@ -20,8 +20,7 @@
  6. [ Deployment](#deployment)
  7. [ Future Feature ](#left)  
  8. [ Citation of Sources](#credits)
- 9. [content](#Content)
- 10. [Acknowledgements](#Acknowledgements)
+
  
  
  
@@ -113,8 +112,8 @@
 
 ## Credits
 
-## Content
-### Content and resources
+### Content and resourses
+
 
 ##### Code Institute
 - Course content for portfolio project 1 hepled greatly in understanding the needs to complete the project
@@ -127,7 +126,7 @@
 - Used to overcome some difficulties I faced on Gitpod installation, unable to view sticky positioning on the website and some responsiveness related quires. 
 - Mentor helped to understand the places for improvement.
 
-## Acknowledgements
+### Acknowledgements
 
 #### Mentor
 >
