@@ -85,7 +85,7 @@ h3 {
     font-size: 20px;
 }
 
-a:hover {
+#nav a:hover {
     color: lightsteelblue;
     cursor: pointer;
 }
@@ -109,7 +109,7 @@ a:hover {
 
 }
 
-#tagline > .small{
+#tagline>.small {
     font-size: 15px;
 }
 
@@ -122,55 +122,51 @@ h2 {
 h3 {
     font-size: 1.6em;
     margin-bottom: 10px;
-    color: beige;
+    color: rgb(0, 0, 37);
     text-decoration: underline;
 }
 
 .timeline {
-    padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-
-
-
 }
 
-.checkpoint div {
-    /*background-color: rgb(0, 0, 34);*/
-    background: linear-gradient(135deg, rgb(0, 0, 0)2%, rgb(0, 0, 40)50%, transparent);
+
+.checkpoint {
+
     padding: 1em 2em;
-    margin-bottom: 2em;
-    margin-top: 5em;
-    max-width: 35rem;
 
-    border: 3px solid black;
-    border-radius: 1em;
-    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+    border: 2px solid black;
+    border-radius: 1em em;
+    box-shadow: -5px 5px 5px rgb(59, 59, 59);
     letter-spacing: 1px;
+    background-color: whitesmoke;
+    margin: 4em auto 2em auto;
 
+    height: 22em;
+    width: 50em;
 
 }
 
 .checkpoint p {
     font-family: oswald, sans-serif;
     font-size: 1.2em;
-    color: beige;
-    font-weight: 50;
+    color: rgb(0, 0, 37);
+    /* font-weight: 100; */
+    font-weight: bold;
 
 }
 
 .checkpoint a {
-    color: beige;
+    color: rgb(0, 0, 37);
     text-decoration: none;
-    
+
 }
 
 
 .bold {
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 /* photos */
@@ -178,12 +174,13 @@ h3 {
 #photos {
     clear: both;
     line-height: 2rem;
-    column-count: 1;
+    column-count: 3;
     gap: 1px;
     object-fit: scale-down;
     background-color: rgb(0, 0, 34);
     padding: 1em;
     column-gap: 0.5em;
+    margin-top: 5em;
 }
 
 #photos>img {
@@ -191,11 +188,15 @@ h3 {
 
 }
 
-
+#about-us {
+    /* height: 40em; */
+    display: flex;
+    margin: 2em;
+}
 
 /* Footer */
 
-#social-icons{
+#social-icons {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -205,15 +206,15 @@ h3 {
     background-color: rgb(0, 0, 34);
 }
 
-#social-icons a{
+#social-icons a {
     color: beige;
     padding: 2px;
-    
+
 }
 
-#social-icons a:hover{
+#social-icons a:hover {
     background-color: beige;
-    color:rgb(0, 0, 34);
+    color: rgb(0, 0, 34);
 }
 
 /*SIgnup form*/
@@ -221,197 +222,105 @@ h3 {
 #signup h2 {
     font-size: 50px;
     text-align: center;
-    
+
     margin-bottom: 20px;
-    color: beige;
+    color: rgb(0, 0, 34);
     margin-top: -10px;
 }
 
 #signup {
-    max-width: 90%;
-    max-height: 100%;
     border: 2px solid beige;
-    margin: 50px auto;
+    margin: 20px auto 40px auto;
     border: 2px solid rgb(0, 0, 34);
-    /* flex-grow: 1; */
     padding: 30px 30px;
-    background: linear-gradient(135deg, rgb(0, 0, 0)2%, rgb(0, 0, 40)50%, transparent);
+    background-color: whitesmoke;
+    max-width: 50rem;
+    box-shadow: -5px 5px 5px rgb(59, 59, 59);
 }
 
-label, legend, summary {
+label,
+legend,
+summary {
     /* padding-left: 15px; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.2px;
-    font-size: 1.1em;
-    color:beige;
+    font-size: 1.2em;
+    color: rgb(0, 0, 34);
 
 }
 
 
 
-input, #group {
+input,
+#group {
     display: block;
     background: transparent;
     font-size: 20px;
     width: 100%;
-    height: 25px;
+    height: 30px;
     margin: 3px 0 5px 0;
-    border: 2px solid beige;
+    border: 2px solid rgb(0, 0, 37);
     border-radius: 5px;
     padding: 0 5px;
-    color: beige;
+    color: rgb(0, 0, 37);
+
 }
 
-textarea{
+textarea {
     width: 100%;
     margin: 3px 0 5px 0;
-    border: 2px solid beige;
+    border: 2px solid rgb(0, 0, 37);
     border-radius: 5px;
     padding: 0 5px;
     color: beige;
     font-size: 20px;
     background-color: transparent;
+
 }
 
 
 
 
-option{
-    background-color: rgb(0,0,37);
+option {
+    background-color: transparent;
+    color: rgb(0, 0, 37);
+    font-size: small;
 }
 
-.info{
+.info {
     display: inline;
     width: unset;
     vertical-align: middle;
-    font-size:larger;
+    font-size: larger;
 }
 
 .button {
-    padding: 10px;
-    font-size: 1.5em;
-    color: rgb(0, 0, 34);
+    padding: 10px 20px;
+    font-size: 2em;
+    color: whitesmoke;
     border: none;
-    box-shadow: 2px 2px 5px beige;
-    background: burlywood;
+    box-shadow: -5px 5px 2px 0px rgb(59, 59, 59);
+    background: rgb(0, 0, 37);
     margin-top: 2em;
     border-radius: 5px;
     font-family: oswald, sans-serif;
-    
+
 }
 
 /*about-us section*/
 
-#about-us{
+#about-us {
     height: 40em;
 }
 
-#about-us > div{
+#about-us>div {
     text-align: center;
     margin-top: 2em;
 }
 
-#about-us p{
+#about-us p {
     font-size: 1.3em;
     padding: 24px;
     margin-top: 10px;
-    color:rgb(0, 0, 37);
+    color: rgb(0, 0, 37);
 }
-
-
-
-
-
-
-@media (min-width: 800px) {
-
-    .odd {
-        margin-right: 20rem;
-    }
-
-    .oddly {
-        margin-right: 20rem;
-    }
-
-    .even {
-        margin-left: 20rem;
-    }
-
-
-    
-
-    /* Photos */
-
-    #photos {
-        column-count: 2;
-
-    }
-
-    /* signup */
-    #signup{
-        max-width: 40rem;
-
-    }
-    
-   
-
-}
-
-@media (min-width:1000px) {
-
-    #head h1 {
-        font-size: 6rem;
-    }
-
-    #nav a {
-        font-size: 25px;
-    }
-
-    #nav>li>a:hover {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 3em;
-    }
-
-    #tagline>p {
-        font-size: 3em;
-    }
-
-    #tagline > .small{
-        font-size: 2em;
-    }
-
-    /* h3{
-        font-size: 3rem;
-    }
-    .checkpoint p{
-        font-size: 2rem;
-    }
-    .checkpoint > div{
-        padding: 2rem 2rem;
-    }
-    */
-    .odd {
-        margin-right: 50rem;
-    }
-
-    .oddly {
-        margin-right: 50rem;
-    }
-
-    .even {
-        margin-left: 50rem;
-    }
-
-    /* Photos */
-
-    #photos {
-        column-count: 3;
-
-    }
-
-}
-
-
