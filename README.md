@@ -66,6 +66,44 @@
 
 []
 
+## Features
+
+## Technologies Used
+
+### HTML
+
+> Used to structure my website
+
+### CSS
+
+> To style the content of my website to make it more appealing and user-friendly.
+
+### Font Awesome
+
+> Library for ICONs used in my website.
+
+### GitHub
+
+> Used to store my Project and later to deploy the same.
+
+### GitPod
+
+> Used as Integrated Development Environment for building this website.
+
+### Git
+
+> Used to version control throughout my project and to ensure that a clean record is maintained.
+
+
+## Testing
+
+## Bugs
+
+## Deployment
+
+## Credits
+
+
 
 
 

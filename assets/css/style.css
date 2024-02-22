@@ -207,11 +207,7 @@ h3 {
 
 /*About us*/
 
-#map{
-    width: 10rem;
-    height: 10rem;
-    margin: 10px;
-}
+
 
 
 
@@ -331,7 +327,6 @@ option{
 
 @media (min-width: 800px) {
 
-
     .odd {
         margin-right: 20rem;
     }
@@ -343,6 +338,9 @@ option{
     .even {
         margin-left: 20rem;
     }
+
+
+    
 
     /* Photos */
 
