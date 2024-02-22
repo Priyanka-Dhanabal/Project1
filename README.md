@@ -114,7 +114,6 @@
 
 ### Content and resourses
 
-
 ##### Code Institute
 - Course content for portfolio project 1 hepled greatly in understanding the needs to complete the project
 - The Love running project helped me understand various content and the ways to style the structure of html element.
@@ -122,9 +121,11 @@
 ##### W3 School
 - Used to reference some basic css styling.
 
-##### Tutoring and Mentor Support at Code Institute
-- Used to overcome some difficulties I faced on Gitpod installation, unable to view sticky positioning on the website and some responsiveness related quires. 
-- Mentor helped to understand the places for improvement.
+##### Favicons
+- Used to download motor bike favicon.
+
+##### Google
+- Used to get some catchy quotes for my website.
 
 ### Acknowledgements
 

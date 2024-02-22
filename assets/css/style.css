@@ -322,6 +322,25 @@ option{
     
 }
 
+/*about-us section*/
+
+#about-us{
+    height: 40em;
+}
+
+#about-us > div{
+    text-align: center;
+    margin-top: 2em;
+}
+
+#about-us p{
+    font-size: 1.3em;
+    padding: 24px;
+    margin-top: 10px;
+    color:rgb(0, 0, 34);
+}
+
+
 
 
 
