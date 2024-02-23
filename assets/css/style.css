@@ -29,7 +29,7 @@ h3 {
 
 #head {
 
-    background-image: url("../images/empty_road_3-wallpaper-1920x1200.jpg");
+    background-image: url("../images/empty_road_3-wallpaper.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +41,7 @@ h3 {
 #head h1 {
     font-family: 'protest riot';
     color: white;
-    text-shadow: -6px 8px 3px black;
+    text-shadow: -9px -10px 3px black;
     font-size: 5rem;
     padding: 10px;
     letter-spacing: 2px;
@@ -174,7 +174,7 @@ h3 {
 #photos {
     clear: both;
     line-height: 2rem;
-    column-count: 3;
+    column-count: 4;
     gap: 1px;
     object-fit: scale-down;
     background-color: rgb(0, 0, 34);
@@ -282,12 +282,13 @@ option {
     font-size: small;
 }
 
-.info {
+.info, #checkbox {
     display: inline;
     width: unset;
     vertical-align: middle;
     font-size: larger;
 }
+
 
 .button {
     padding: 10px 20px;
@@ -295,11 +296,16 @@ option {
     color: white;
     border: none;
     box-shadow: -5px 5px 2px 0px rgb(59, 59, 59);
-    background: rgb(0, 0, 37);
+    background-color: rgb(0, 0, 37);
     margin-top: 2em;
     border-radius: 5px;
     font-family: oswald, sans-serif;
 
+}
+
+.button:hover{
+    background-color: rgb(0, 0, 150);
+    cursor: pointer;
 }
 
 /*about-us section*/
@@ -350,6 +356,14 @@ option {
     .checkpoint {
         max-width: 20em;
         height: 32em;
+    }
+
+    #head{
+        background-image: url(../images/empty_road_3-wallpaper-700px.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
     }
 
     
