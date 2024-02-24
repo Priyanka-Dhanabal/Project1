@@ -2,19 +2,19 @@
 
 
 ## A Travel Website
-> A Website showcasing a itnerary of date, venue and activities that will be held for users owning a motor bike. This website also alows users view photo gallery and submit a form to be part of the travel.
+> A Website showcasing an itnerary of date, venue and activities that will be held for users owning a motor bike. This website also alows users view photo gallery and submit a form to be part of the travel.
 
 #### - by Priyanka Dhanabal
 
 ### [Live Website](https://priyanka-dhanabal.github.io/Project1/)
 
-### [Repository](https://github.com/Priyanka-Dhanabal/Project1.git)
+### [My Repository](https://github.com/Priyanka-Dhanabal/Project1.git)
 
 ## Table of contents
 
  1. [ UX ](#ux)
  2. [ Features ](#features)
- 3. [ Future Feature ](#future_feature)  
+ 3. [ Future Feature ](#future)  
  4. [ Technology used ](#tech) 
  5. [ Testing ](#testing)  
  6. [ Bugs ](#bugs)  
@@ -95,9 +95,11 @@
 
 - This provides form validation feature, Users can not submit the form untill all the details are filled as per the requirement.
 
-<a name="future_feature"></a>
+<a name="#future"></a>
 
 ## Future Feature
+
+#### Feature I would like to add in future
 
 - I would like to add dropdown effect to a new feature stating as Locations, where the users can select which part of the country they would like to explore and give separate iternary for those locations.
  
@@ -151,7 +153,7 @@
 
 #### User Navigation Test
 
-| input | Result |
+| input | Status |
 |--|--|
 | User can navigate to Home page by clickling the Logo | True |
 | User can navigate to Home page by clicking Home | True |
@@ -163,7 +165,7 @@
 
 #### Page is responsive
 
-| input | Result |
+| input | Status |
 |--|--|
 | Page is responsive to the device the user views the website | True |
 
@@ -176,7 +178,7 @@
 #### HTML Validation
 > No error found
 
-#### CSS Validation
+#### CSS Validation - using Jigsaw Validator
 > No error found
 
 ## Bugs
