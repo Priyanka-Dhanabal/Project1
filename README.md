@@ -71,44 +71,111 @@
 
 ## Features
 
+### Navigation
+
+- This is featured in both the index.html and signup.html page which includes Home page, Photos section within the Home page and Sign Up page.
+
+- Users can navigate back to home page by clicking onto the Logo on the website.
+
+- Used to allow the users to navigate to the desired location in the website
+
+- At the Footer I have included to navigate the users to the social accounts of the website.
+
+### Travel Iternary page
+
+- This section of the website gives an detailed description of the travel days and activities held on the same day.
+
+### Photos Section
+
+- This section of the website provides photos and it is responsive to the device viewed from.
+
+### Book Now - SignUp page
+
+- Users can navigate to this page by clicking Book Now mentioned the navigation bar. Users are relocated to this page, they can provide detailes asked and submit.
+
+- This provides form validation feature, Users can not submit the form untill all the details are filled as per the requirement.
+
+
 ## Technologies Used
 
 ### HTML
 
-> Used to structure my website
+- Used to structure my website
 
 ### CSS
 
-> To style the content of my website to make it more appealing and user-friendly.
+- To style the content of my website to make it more appealing and user-friendly.
 
 ### Font Awesome
 
-> Library for ICONs used in my website.
+- Library for ICONs used in my website.
 
 ### GitHub
 
-> Used to store my Project and later to deploy the same.
+- Used to store my Project and later to deploy the same.
 
 ### GitPod
 
-> Used as Integrated Development Environment for building this website.
+- Used as Integrated Development Environment for building this website.
 
 ### Git
 
-> Used to version control throughout my project and to ensure that a clean record is maintained.
+- Used to version control throughout my project and to ensure that a clean record is maintained.
 
 
 ## Testing
+> Please view the below tests carried out on the website.
 
 ### Manual Testing
 
+#### Form Validation
+
+| input | Status |
+|--|--|
+| Users can not submit form without first name | True |
+| Users can not submit form without Last name | True |
+| Users can not submit form without email | True |
+| Users can not enter email address without @ | True |
+| Users can not submit form below 18 | True |
+| Users can not submit form without checking the checkbox | True |
+| Administrator is able to view the sumitted form | True |
+
+#### User Navigation Test
+
+| input | Result |
+|--|--|
+| User can navigate to Home page by clickling the Logo | True |
+| User can navigate to Home page by clicking Home | True |
+| User can navigate to Photo section by clicking Photos | True |
+| User can navigate to Sign Up page section by clicking Book Now | True |
+| User can navigate to Facebook from Footer | True |
+| User can navigate to Instagram from Footer | True |
+| User can navigate to Youtube from Footer | True |
+
+#### Page is responsive
+
+| input | Result |
+|--|--|
+| Page is responsive to the device the user views the website | True |
+
+
 ### Google Lighthouse Testing
+> Please view the screenshot
 
 ### W3C Validation
+
+#### HTML Validation
+> No error found
+
+#### CSS Validation
+> No error found
 
 ## Bugs
 
 ## Deployment
+
+#### How to deploy your project from Gitpod IDE to GitHUb
+- 
 
 ## Credits
 
@@ -126,6 +193,9 @@
 
 ##### Google
 - Used to get some catchy quotes for my website.
+
+##### imageresizer.com
+- Used to resize the images used in the website.
 
 ### Acknowledgements
 
