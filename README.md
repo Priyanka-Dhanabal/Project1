@@ -14,11 +14,11 @@
 
  1. [ UX ](#ux)
  2. [ Features ](#features)
- 3. [ Technology used ](#tech) 
- 4. [ Testing ](#testing)  
- 5. [ Bugs ](#bugs)  
- 6. [ Deployment](#deployment)
- 7. [ Future Feature ](#left)  
+ 3. [ Future Feature ](#future_feature)  
+ 4. [ Technology used ](#tech) 
+ 5. [ Testing ](#testing)  
+ 6. [ Bugs ](#bugs)  
+ 7. [ Deployment](#deployment) 
  8. [ Citation of Sources](#credits)
 
  
@@ -95,6 +95,15 @@
 
 - This provides form validation feature, Users can not submit the form untill all the details are filled as per the requirement.
 
+<a name="future_feature"></a>
+
+## Future Feature
+
+- I would like to add dropdown effect to a new feature stating as Locations, where the users can select which part of the country they would like to explore and give separate iternary for those locations.
+ 
+- Also, probably make the website more interactive with the users.
+
+
 
 ## Technologies Used
 
@@ -130,7 +139,7 @@
 
 #### Form Validation
 
-| input | Status |
+| Input | Status |
 |--|--|
 | Users can not submit form without first name | True |
 | Users can not submit form without Last name | True |
@@ -147,10 +156,10 @@
 | User can navigate to Home page by clickling the Logo | True |
 | User can navigate to Home page by clicking Home | True |
 | User can navigate to Photo section by clicking Photos | True |
-| User can navigate to Sign Up page section by clicking Book Now | True |
-| User can navigate to Facebook from Footer | True |
-| User can navigate to Instagram from Footer | True |
-| User can navigate to Youtube from Footer | True |
+| User can navigate to Sign Up page by clicking Book Now | True |
+| User can navigate to Facebook on a new tab from Footer | True |
+| User can navigate to Instagram on a new tab from Footer | True |
+| User can navigate to Youtube on a new tab from Footer | True |
 
 #### Page is responsive
 
@@ -172,10 +181,22 @@
 
 ## Bugs
 
+
+
 ## Deployment
 
 #### How to deploy your project from Gitpod IDE to GitHUb
-- 
+- Once all you're code is pushed to GitHub, by typing Git push in you're IDE's Terminal window.
+- Your GitHub Repository will have the latest code.
+- From your project's repository navigate to settings.
+- Within Code and automation section, select Pages.
+- From the source section drop down select Deploy from a branch.
+- From Branch select main and /(root) from the drop down and click save.
+- The page can be refreshed and the link will be shown on the same page.
+- If the link has not appeared, navigate back to your project repository.
+- On right hand side, select deployments, you will find the link here.
+
+Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
 
 ## Credits
 
@@ -194,13 +215,19 @@
 ##### Google
 - Used to get some catchy quotes for my website.
 
+##### Alan-Bushell, Akshat_Garg GitHUb account
+- To understand README.md file syntax and requirements.
+
 ##### imageresizer.com
 - Used to resize the images used in the website.
 
+##### Images Used
+- All Images used in the Website was taken from Google images. These were saved and later resized.
+
 ### Acknowledgements
 
-#### Mentor
->
+#### Mentor - Akshat_Garg
+> My Mentor provided feedbacks and guidance throughout.
 
 #### kristyna - Cohort facilitator
 > She was very helpful with all my queries related to Code Institute study structure. Also, helping to understand the various needs to achive a good project.
