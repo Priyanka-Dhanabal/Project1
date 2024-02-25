@@ -2,12 +2,11 @@
 
 
 ## A Travel Website
-> A Website showcasing an itnerary of date, venue and activities that will be held for users owning a motor bike. This website also alows users view photo gallery and submit a form to be part of the travel.
+> A Website showcasing an itnerary of date, venue and activities that users owning a motor bike can participate by booking. This website also alows users view photo gallery and submit a form to be part of the travel.
 
 #### - by Priyanka Dhanabal
 
 ### [Live Website](https://priyanka-dhanabal.github.io/Project1/)
-
 ### [My Repository](https://github.com/Priyanka-Dhanabal/Project1.git)
 
 ## Table of contents
@@ -21,9 +20,6 @@
  7. [ Deployment](#deployment) 
  8. [ Citation of Sources](#credits)
 
- 
- 
- 
 
  ## UX
 
@@ -61,13 +57,17 @@
 
 ### Wireframes
 
-> Index.html
+<details>
+<summary> Wireframes </summary>
+<br>
 
-[Index page]
+![Wireframe Index](assets/images/Readme/SignUp.png)
 
-> 
+![Wireframe Mobile](assets/images/Readme/MObileView.png)
 
-[]
+![Wireframe Products](assets/images/Readme/SignUp.png)
+</details>
+
 
 ## Features
 
@@ -79,7 +79,12 @@
 
 - Used to allow the users to navigate to the desired location in the website
 
+![Navigation](assets/images/Readme/Nav.png)
+
 - At the Footer I have included to navigate the users to the social accounts of the website.
+
+![Navigation to social accounts](assets/images/Readme/footer_nav.png)
+
 
 ### Travel Iternary page
 
@@ -151,6 +156,8 @@
 | Users can not submit form without checking the checkbox | True |
 | Administrator is able to view the sumitted form | True |
 
+![Form Submit](assets/images/Readme/form-validation.png)
+
 #### User Navigation Test
 
 | input | Status |
@@ -171,18 +178,28 @@
 
 
 ### Google Lighthouse Testing
+> I made changes to footer's ancor elements by adding a aria-label attribute to attain this accessibility value as suggested by the LightHouse.
 > Please view the screenshot
+
+![LightHouse](assets/images/Readme/lighthouse.png)
 
 ### W3C Validation
 
 #### HTML Validation
 > No error found
 
+![W3c Validation for index.html](assets/images/Readme/index.html.png)
+![W3c Validation for signup.html](assets/images/Readme/signup.html.png)
+
+
 #### CSS Validation - using Jigsaw Validator
 > No error found
 
+![W3c Validation for signup.html](assets/images/Readme/style-file.png)
+
 ## Bugs
 
+> NO Bugs found.
 
 
 ## Deployment
@@ -198,32 +215,34 @@
 - If the link has not appeared, navigate back to your project repository.
 - On right hand side, select deployments, you will find the link here.
 
+- I deployed my project at the beginning as I was able to see as how my project would look and feel at every step of developing the code.
+
 Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
 
 ## Credits
 
 ### Content and resourses
 
-##### Code Institute
+#### Code Institute
 - Course content for portfolio project 1 hepled greatly in understanding the needs to complete the project
 - The Love running project helped me understand various content and the ways to style the structure of html element.
 
-##### W3 School
+#### W3 School
 - Used to reference some basic css styling.
 
-##### Favicons
+#### Favicons
 - Used to download motor bike favicon.
 
-##### Google
+#### Google
 - Used to get some catchy quotes for my website.
 
-##### Alan-Bushell, Akshat_Garg GitHUb account
+#### Alan-Bushell, Akshat_Garg GitHUb account
 - To understand README.md file syntax and requirements.
 
-##### imageresizer.com
+#### imageresizer.com
 - Used to resize the images used in the website.
 
-##### Images Used
+#### Images Used
 - All Images used in the Website was taken from Google images. These were saved and later resized.
 
 ### Acknowledgements

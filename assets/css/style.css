@@ -13,6 +13,8 @@ body {
     width: 100%;
     position: relative;
     background-color: hsl(0deg 100% 90.96%);
+    /* background-color: hsl(228.78deg 19.58% 79.77%); */
+
     z-index: 50;
 
 
