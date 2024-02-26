@@ -13,18 +13,13 @@ body {
     width: 100%;
     position: relative;
     background-color: hsl(0deg 100% 90.96%);
-    /* background-color: hsl(228.78deg 19.58% 79.77%); */
-
     z-index: 50;
-
-
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Protest Riot', sans-serif;
-
 }
 
 /* Header */
@@ -51,17 +46,13 @@ h3 {
 
 #head>a {
     text-decoration: none;
-
 }
 
 #head p {
-
     color: rgb(31, 26, 26);
     position: relative;
     top: -20px;
     font-size: 30px;
-
-
 }
 
 #menu {
@@ -71,7 +62,6 @@ h3 {
     top: 0;
     z-index: 99;
     margin-bottom: 10px;
-
 }
 
 #nav {
@@ -92,12 +82,7 @@ h3 {
     cursor: pointer;
 }
 
-
-
-
 /* main */
-
-
 
 #tagline {
     text-align: center;
@@ -108,7 +93,6 @@ h3 {
     font-size: 20px;
     color: rgb(0, 0, 34);
     font-weight: bold;
-
 }
 
 #tagline>.small {
@@ -138,32 +122,25 @@ h3 {
 .checkpoint {
 
     padding: 1em 2em;
-
     border: 2px solid black;
     border-radius: 1em;
     box-shadow: -5px 5px 5px rgb(59, 59, 59);
     letter-spacing: 1px;
     background-color: white;
     margin: 4em auto 2em auto;
-
-    height: 22em;
     width: 50em;
-
 }
 
 .checkpoint p {
     font-family: oswald, sans-serif;
     font-size: 1.25em;
     color: rgb(0, 0, 37);
-    /* font-weight: 100; */
     font-weight: bold;
-
 }
 
 .checkpoint a {
     color: rgb(0, 0, 37);
     text-decoration: none;
-
 }
 
 
@@ -190,17 +167,28 @@ h3 {
 
 }
 
-
 /* Footer */
 
 #social-icons {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
     font-size: 1.5em;
     background-color: rgb(0, 0, 34);
+}
+
+#social-icons li {
+    margin: 1px 10px;
+}
+
+#copyright {
+    color: white;
+    background: rgb(0, 0, 37);
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 0.7em;
 }
 
 #social-icons a {
@@ -219,7 +207,6 @@ h3 {
 #signup h2 {
     font-size: 50px;
     text-align: center;
-
     margin-bottom: 20px;
     color: rgb(0, 0, 34);
     margin-top: -10px;
@@ -238,7 +225,6 @@ h3 {
 label,
 legend,
 summary {
-    /* padding-left: 15px; */
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.2px;
     font-size: 1.2em;
@@ -272,7 +258,6 @@ textarea {
     color: rgb(0, 0, 37);
     font-size: 20px;
     background-color: transparent;
-
 }
 
 
@@ -302,7 +287,6 @@ option {
     margin-top: 2em;
     border-radius: 5px;
     font-family: oswald, sans-serif;
-
 }
 
 .button:hover{
@@ -321,9 +305,6 @@ option {
     
 }
 
-
-
-
 @media (max-width: 900px) {
     #head h1{
         font-size: 4rem;
@@ -336,8 +317,7 @@ option {
     }
 
     .checkpoint{
-        max-width: 30em;
-        height: 25em;
+        max-width: 30em;        
     }
 
     .checkpoint p{
@@ -356,8 +336,7 @@ option {
 
 @media (max-width: 700px){
     .checkpoint {
-        max-width: 20em;
-        height: 32em;
+        max-width: 20em;    
     }
 
     #head{
@@ -366,24 +345,12 @@ option {
         background-position: center;
         background-size: cover;
         text-align: center;
-    }
-
-    
+    }    
     
 }
-
-
-
 
 @media (max-width: 500px) {
     #photos{
         column-count: 1;
-    }
-
-    
-
-
-
-
-    
+    }    
 }

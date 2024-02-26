@@ -13,8 +13,8 @@
 
  1. [ UX ](#ux)
  2. [ Features ](#features)
- 3. [ Future Feature ](#future)  
- 4. [ Technology used ](#tech) 
+ 3. [ Future Feature ](#future-feature)  
+ 4. [ Technology used ](#technologies-used) 
  5. [ Testing ](#testing)  
  6. [ Bugs ](#bugs)  
  7. [ Deployment](#deployment) 
@@ -102,7 +102,7 @@
 
 <a name="#future"></a>
 
-## Future Feature
+## Future-Feature
 
 #### Feature I would like to add in future
 
@@ -156,7 +156,20 @@
 | Users can not submit form without checking the checkbox | True |
 | Administrator is able to view the sumitted form | True |
 
+<details>
+<summary> Validation Screenshots </summary>
+<br>
+
 ![Form Submit](assets/images/Readme/form-validation.png)
+
+![Email](assets/images/Readme/email.png)
+
+![Last Name](assets/images/Readme/Lastname.png)
+
+![Checkbox](assets/images/Readme/checkbox.png)
+
+</details>
+
 
 #### User Navigation Test
 
@@ -170,12 +183,22 @@
 | User can navigate to Instagram on a new tab from Footer | True |
 | User can navigate to Youtube on a new tab from Footer | True |
 
+
 #### Page is responsive
 
 | input | Status |
 |--|--|
 | Page is responsive to the device the user views the website | True |
 
+<details>
+<summary> Page responsiveness Screenshot</summary>
+<br>
+
+![Mobile View](assets/images/Readme/responsive.png)
+![IPad view](assets/images/Readme/responsive1.png)
+
+
+</details>
 
 ### Google Lighthouse Testing
 > I made changes to footer's anchor elements by adding a aria-label attribute to attain this accessibility value as suggested by the LightHouse.
@@ -199,7 +222,7 @@
 
 ## Bugs
 
-> NO Bugs found.
+> No Bugs found.
 
 
 ## Deployment
@@ -236,8 +259,8 @@ Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
 #### Google
 - Used to get some catchy quotes for my website.
 
-#### Alan-Bushell, Akshat_Garg GitHUb account
-- To understand README.md file syntax and requirements.
+#### Alan-Bushell, Akshat_Garg GitHub account
+- CHecked random README.md file to understand the syntax and requirements.
 
 #### imageresizer.com
 - Used to resize the images used in the website.
