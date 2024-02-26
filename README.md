@@ -1,5 +1,7 @@
 # RideAlong
 
+![Device Responsiveness](assets/images/Readme/responsiveness.png)
+
 
 ## A Travel Website
 > A Website showcasing an itnerary of date, venue and activities that users owning a motor bike can participate by booking. This website also alows users view photo gallery and submit a form to be part of the travel.
@@ -157,7 +159,7 @@
 | Administrator is able to view the sumitted form | True |
 
 <details>
-<summary> Validation Screenshots </summary>
+<summary> Validation testing Screenshots </summary>
 <br>
 
 ![Form Submit](assets/images/Readme/form-validation.png)
@@ -191,7 +193,7 @@
 | Page is responsive to the device the user views the website | True |
 
 <details>
-<summary> Page responsiveness Screenshot</summary>
+<summary> Page responsiveness testing Screenshot</summary>
 <br>
 
 ![Mobile View](assets/images/Readme/responsive.png)
