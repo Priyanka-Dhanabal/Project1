@@ -178,10 +178,10 @@
 
 
 ### Google Lighthouse Testing
-> I made changes to footer's ancor elements by adding a aria-label attribute to attain this accessibility value as suggested by the LightHouse.
+> I made changes to footer's anchor elements by adding a aria-label attribute to attain this accessibility value as suggested by the LightHouse.
 > Please view the screenshot
 
-![LightHouse](assets/images/Readme/lighthouse.png)
+
 
 ### W3C Validation
 
@@ -224,7 +224,7 @@ Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
 ### Content and resourses
 
 #### Code Institute
-- Course content for portfolio project 1 hepled greatly in understanding the needs to complete the project
+- Course content for portfolio project1 hepled greatly in understanding the needs to complete the project
 - The Love running project helped me understand various content and the ways to style the structure of html element.
 
 #### W3 School
@@ -244,6 +244,9 @@ Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
 
 #### Images Used
 - All Images used in the Website was taken from Google images. These were saved and later resized.
+
+#### Balsamiq
+- used to create wireframe to illustrate my project idea.
 
 ### Acknowledgements
 
