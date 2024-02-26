@@ -32,80 +32,86 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#photos">Photos</a></li>
             <li><a href="signup.html">Book Now</a></li>
-            
+
         </ul>
     </nav>
 
     <main>
         <section id="signup">
             <form id="form" method="POST" action="https://formdump.codeinstitute.net">
-            <h2>Book Now</h2>
-            <label for="first-name">First Name: </label>
-            <input type="text" id="first-name" name="first-name" class="name" required />
-            <br>
-            <label for="last-name">Last Name: </label>
-            <input type="text" id="last-name" name="last-name" class="name" required />
-            <br>
-            <label for="email">Email Address: </label>
-            <input type="email" id="email" name="email" class="name" required />
-            <br>
-            <label for="age">Age: </label>
-            <input type="number" id="age" name="age" class="name" value="0" min="18" max="60" required />
-            <details>
-                <summary>Age requirements</summary>
-                <p>You must be above 18 year old to participate</p>
-            </details>
+                <h2>Book Now</h2>
+                <label for="first-name">First Name: </label>
+                <input type="text" id="first-name" name="first-name" class="name" required />
+                <br>
+                <label for="last-name">Last Name: </label>
+                <input type="text" id="last-name" name="last-name" class="name" required />
+                <br>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" class="name" required />
+                <br>
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age" class="name" value="0" min="18" max="60" required />
+                <details>
+                    <summary>Age requirements</summary>
+                    <p>You must be above 18 year old to participate</p>
+                </details>
 
-            <br>
-            <label for="group">Number of people accompanying you: </label>
-            <select id="group">
-                <option value="">Select</option>
-                <option value="1">1-2</option>
-                <option value="2">3-6</option>
-                <option value="3">more than 6</option>
-            </select>
-            <br>
-            <fieldset>
-                <legend>How did you hear about us?</legend>
-                <input type="radio" name="info" class="info" id="friend" checked><label for="friend">   A friend</label><br>
-                <input type="radio" name="info" class="info" id="facebook"><label for="facebook">   Facebook</label><br>
-                <input type="radio" name="info" class="info" id="instagram"><label for="instagram">    Instagram</label><br>
-                <input type="radio" name="info" class="info" id="youtube"><label for="youtube">    YouTube</label><br>
-            </fieldset>
+                <br>
+                <label for="group">Number of people accompanying you: </label>
+                <select id="group">
+                    <option value="">Select</option>
+                    <option value="1">1-2</option>
+                    <option value="2">3-6</option>
+                    <option value="3">more than 6</option>
+                </select>
+                <br>
+                <fieldset>
+                    <legend>How did you hear about us?</legend>
+                    <input type="radio" name="info" class="info" id="friend" checked><label for="friend"> A
+                        friend</label><br>
+                    <input type="radio" name="info" class="info" id="facebook"><label for="facebook">
+                        Facebook</label><br>
+                    <input type="radio" name="info" class="info" id="instagram"><label for="instagram">
+                        Instagram</label><br>
+                    <input type="radio" name="info" class="info" id="youtube"><label for="youtube"> YouTube</label><br>
+                </fieldset>
 
-            <br>
+                <br>
 
-            <input type="checkbox" id="checkbox" name="acceptance" required /><label for="checkbox"> I accept receiving further details via email.</label>
-            <br>
-            <br>
-            <label for="comment">Any questions or suggestions? </label><br>
+                <input type="checkbox" id="checkbox" name="acceptance" required /><label for="checkbox"> I accept
+                    receiving further details via email.</label>
+                <br>
+                <br>
+                <label for="comment">Any questions or suggestions? </label><br>
 
-            <textarea id="comment" rows="5" cols="30" placeholder="Can I join you from Mysore?"></textarea>
-            <br>
-            <button type="submit" class="button">Send</button>
+                <textarea id="comment" rows="5" cols="30" placeholder="Can I join you from Mysore?"></textarea>
+                <br>
+                <button type="submit" class="button">Send</button>
 
-        </form>
+            </form>
         </section>
     </main>
 
     <footer>
+        <div id="footer">
 
-        <ul id="social-icons">
+            <ul id="social-icons">
 
-            <li><a href="https://www.facebook.com/" target="_blank" aria-label="Re-directing to Facebook page" rel="noopener noreferrer"><i
-                        class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" aria-label="Re-directing to youtube page" rel="noopener noreferrer"><i
-                        class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" aria-label="Re-directing to instagram page" rel="noopener noreferrer"><i
-                        class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" aria-label="Re-directing to Facebook page"
+                        rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" aria-label="Re-directing to youtube page"
+                        rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" aria-label="Re-directing to instagram page"
+                        rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
 
-        </ul>
-        <p id="copyright"><i class="fa-regular fa-copyright"></i><em>copyright PD2024</p>
+            </ul>
+            <p id="copyright"><i class="fa-regular fa-copyright"></i><em>copyright PD2024</p>
+        </div>      
 
     </footer>
     <script src="https://kit.fontawesome.com/0f5fd35744.js" crossorigin="anonymous"></script>
 
-
+    
 </body>
 
 </html>

@@ -204,7 +204,18 @@
 > I made changes to footer's anchor elements by adding a aria-label attribute to attain this accessibility value as suggested by the LightHouse.
 > Please view the screenshot
 
+<details>
+<summary> Google Lighthouse test</summary>
 
+- Moblie view
+
+![Lighthouse_mobile](assets/images/Readme/lighthouse_Mobile.png)
+
+- Desktop view
+
+![Lighthouse_desktop](assets/images/Readme/lighthouse_Desktop.png)
+
+</details>
 
 ### W3C Validation
 
@@ -212,6 +223,7 @@
 > No error found
 
 ![W3c Validation for index.html](assets/images/Readme/index.html.png)
+
 ![W3c Validation for signup.html](assets/images/Readme/signup.html.png)
 
 
