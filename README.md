@@ -8,7 +8,7 @@
 
 #### - by Priyanka Dhanabal
 
-### [Live Website](https://priyanka-dhanabal.github.io/Project1/)
+### [Live Website](https://priyanka-dhanabal.github.io/RideAlong/)
 ### [My Repository](https://github.com/Priyanka-Dhanabal/Project1.git)
 
 ## Table of contents
@@ -254,7 +254,7 @@
 
 - I deployed my project at the beginning as I was able to see as how my project would look and feel at every step of developing the code.
 
-Live link of my website -  https://priyanka-dhanabal.github.io/Project1/
+Live link of my website -  https://priyanka-dhanabal.github.io/RideAlong/
 
 ## Credits
 
